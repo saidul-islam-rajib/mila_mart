@@ -377,6 +377,8 @@ h1, h2, h3, p { margin-top: 0; }
 .footer-meta span, .footer-meta small { font: 500 .53rem/1.4 "DM Sans", "Noto Sans Bengali", sans-serif; }
 .footer-meta span { color: var(--gold-soft); letter-spacing: .1em; text-transform: uppercase; }
 .footer-meta strong { color: var(--ivory); font: 600 .72rem/1 "DM Sans", sans-serif; letter-spacing: .03em; }
+.footer-credit-link { border-bottom: 1px solid rgba(225,189,112,.3); }
+.footer-credit-link:hover { color: var(--gold-soft); border-color: var(--gold-soft); }
 
 @media (max-width: 1180px) {
   .catalog-nav { gap: .8rem; }
