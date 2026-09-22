@@ -1,14 +1,6 @@
-import "dotenv/config";
-import express from "express";
 import { createServer } from "http";
 import net from "net";
-import { createExpressMiddleware } from "@trpc/server/adapters/express";
-import { registerOAuthRoutes } from "./oauth";
-import { registerStorageProxy } from "./storageProxy";
-import { registerPaymentProofRoutes } from "../paymentProof";
-import { registerDecorPhotoRoutes } from "../decorUpload";
-import { appRouter } from "../routers";
-import { createContext } from "./context";
+import { createApp } from "./app";
 import { serveStatic, setupVite } from "./vite";
 
 function isPortAvailable(port: number): Promise<boolean> {
@@ -31,24 +23,9 @@ async function findAvailablePort(startPort: number = 3000): Promise<number> {
 }
 
 async function startServer() {
-  const app = express();
+  const app = createApp();
   const server = createServer(app);
-  
-  app.use(express.json({ limit: "12mb" }));
-  app.use(express.urlencoded({ limit: "12mb", extended: true }));
-  registerStorageProxy(app);
-  registerPaymentProofRoutes(app);
-  registerDecorPhotoRoutes(app);
-  registerOAuthRoutes(app);
-  
-  app.use(
-    "/api/trpc",
-    createExpressMiddleware({
-      router: appRouter,
-      createContext,
-    })
-  );
-  
+
   if (process.env.NODE_ENV === "development") {
     await setupVite(app, server);
   } else {
