@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wdth,wght@75..100,300..900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    /* keep min-height as required but stop children stretching */
+    .slide-container { width: 1280px; min-height: 720px; background: #F4F1F8; color: #3E2A5E; font-family: 'Noto Sans Bengali', sans-serif; position: relative; display: grid; grid-template-columns: 43% 57%; align-items: start; }
+    .intro { padding-top: 88px; padding-left: 92px; padding-right: 58px; }
+    .eyebrow { color: #5A4B75; font-size: 13px; font-weight: 800; letter-spacing: 3px; }
+    h1 { margin-top: 24px; color: #3E2A5E; font-size: 55px; line-height: 1.04; letter-spacing: -2.6px; font-weight: 900; }
+    .lead { margin-top: 12px; color: #5A4B75; font-size: 19px; line-height: 1.65; font-weight: 300; }
+    .whatsapp-note { margin-top: 20px; display: grid; grid-template-columns: 70px 1fr; gap: 12px; align-items: center; }
+    .whatsapp-symbol { width: 56px; height: 56px; display: grid; place-items: center; color: #F4F1F8; background: #3E2A5E; font-size: 25px; font-weight: 900; }
+    .whatsapp-note strong { display: block; font-size: 19px; font-weight: 900; letter-spacing: -.6px; }
+    .whatsapp-note p { margin-top: 7px; color: #5A4B75; font-size: 14px; line-height: 1.55; font-weight: 300; }
+    /* make contact column size to content rather than stretch rows */
+    .contact-map { padding-top: 24px; padding-right: 94px; display: grid; row-gap: 12px; grid-auto-rows: auto; }
+    .contact-row { display: grid; grid-template-columns: 76px 178px 1fr; gap: 22px; align-items: center; border-top: 1px solid #B7A8C8; padding: 6px 0; }
+    .contact-row:last-child { border-bottom: 1px solid #B7A8C8; }
+    .index { color: #9D84B7; font-size: 16px; font-weight: 900; letter-spacing: 1px; }
+    .channel { color: #3E2A5E; font-size: 20px; font-weight: 900; letter-spacing: -1px; }
+    .detail { color: #5A4B75; font-size: 17px; line-height: 1.5; font-weight: 300; }
+    .detail b { color: #3E2A5E; font-weight: 700; }
+    .footnote { position: absolute; left: 92px; bottom: 63px; color: #9D84B7; font-size: 12px; font-weight: 800; letter-spacing: 1.8px; }
+    .arc-one { position: absolute; right: -88px; bottom: -84px; width: 312px; height: 205px; border: 1px solid #9D84B7; border-radius: 170px 170px 0 0; border-bottom: 0; opacity: .5; }
+    .arc-two { position: absolute; right: -26px; bottom: -84px; width: 208px; height: 143px; border: 1px solid #9D84B7; border-radius: 120px 120px 0 0; border-bottom: 0; opacity: .28; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="intro">
+      <p class="eyebrow">07 · CONTACT SYSTEM</p>
+      <h1>যোগাযোগ<br>সবসময় কাছে</h1>
+      <p class="lead">গ্রাহককে আলাদা ফর্ম খুঁজতে হয় না। প্রয়োজন বোঝার পর সরাসরি কথা বলার পথ প্রতিটি পেজে দৃশ্যমান।</p>
+      <div class="whatsapp-note">
+        <div class="whatsapp-symbol">W</div>
+        <div><strong>WhatsApp is always visible</strong><p>ওয়েবসাইটের ডান দিকে স্থায়ী আইকনটি পণ্য, মাপ ও পছন্দ পাঠানোর সবচেয়ে সহজ পথ।</p></div>
+      </div>
+    </section>
+    <section class="contact-map" aria-label="যোগাযোগের মাধ্যম">
+      <div class="contact-row"><span class="index">01</span><strong class="channel">WhatsApp</strong><span class="detail">প্রতিটি পেজে স্থায়ী সবুজ আইকন ও সরাসরি বার্তা পাঠানোর CTA</span></div>
+      <div class="contact-row"><span class="index">02</span><strong class="channel">ফোন</strong><span class="detail"><b>+880 1404 225856</b><br>হেডার ও যোগাযোগ অংশে দৃশ্যমান</span></div>
+      <div class="contact-row"><span class="index">03</span><strong class="channel">ইমেইল</strong><span class="detail"><b>milamartbd@gmail.com</b><br>বিস্তারিত প্রকল্প বা ব্যবসায়িক যোগাযোগের জন্য</span></div>
+      <div class="contact-row"><span class="index">04</span><strong class="channel">লোকেশন</strong><span class="detail"><b>Mirpur-10, Fruits Market</b><br>Dhaka, Bangladesh</span></div>
+    </section>
+    <p class="footnote">VIEW → DECIDE → MESSAGE</p>
+    <div class="arc-one" aria-hidden="true"></div><div class="arc-two" aria-hidden="true"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wdth,wght@75..100,300..900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: #F4F1F8; color: #3E2A5E; font-family: 'Noto Sans Bengali', sans-serif; display: grid; grid-template-columns: 58% 42%; }
+    .title-zone { margin: 84px 0 84px 92px; padding: 62px 72px; border-left: 8px solid #9D84B7; display: flex; flex-direction: column; justify-content: center; }
+    .eyebrow { color: #5A4B75; font-size: 15px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 36px; }
+    h1 { font-size: 67px; line-height: 1.06; letter-spacing: -3.2px; font-weight: 900; max-width: 570px; }
+    .subtitle { margin-top: 26px; color: #5A4B75; font-size: 23px; line-height: 1.5; font-weight: 300; }
+    .meta { margin-top: 54px; display: flex; gap: 18px; align-items: center; color: #5A4B75; font-size: 14px; letter-spacing: 1.4px; }
+    .meta::before { content: ''; width: 52px; height: 2px; background: #9D84B7; }
+    .motif-zone { position: relative; display: flex; align-items: center; justify-content: center; }
+    .arch-one, .arch-two, .arch-three { position: absolute; border: 2px solid #9D84B7; border-radius: 230px 230px 0 0; border-bottom: 0; }
+    .arch-one { width: 386px; height: 410px; right: 0; bottom: 0; opacity: .92; }
+    .arch-two { width: 292px; height: 315px; right: 48px; bottom: 0; opacity: .62; }
+    .arch-three { width: 194px; height: 212px; right: 96px; bottom: 0; opacity: .35; }
+    .motif-card { position: relative; z-index: 2; width: 210px; min-height: 210px; margin-top: -24px; display: flex; flex-direction: column; justify-content: center; align-items: center; background: #3E2A5E; color: #F4F1F8; border-radius: 8px; }
+    .motif-card strong { font-size: 48px; font-weight: 900; letter-spacing: -2px; }
+    .motif-card span { margin-top: 9px; color: #D7C9E4; font-size: 12px; font-weight: 600; letter-spacing: 2.2px; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="title-zone">
+      <p class="eyebrow">WEBSITE STRUCTURE · 2026</p>
+      <h1>Mila Interior<br>Solutions</h1>
+      <p class="subtitle">বর্তমান ওয়েবসাইট কাঠামো<br>ও ক্যাটালগ অভিজ্ঞতা</p>
+      <div class="meta">ব্র্যান্ড · ক্যাটাগরি · যোগাযোগ</div>
+    </section>
+    <section class="motif-zone" aria-hidden="true">
+      <div class="arch-one"></div><div class="arch-two"></div><div class="arch-three"></div>
+      <div class="motif-card"><strong>M</strong><span>CATALOG MAP</span></div>
+    </section>
+  </div>
+</body>
+</html>

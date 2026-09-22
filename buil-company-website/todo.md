@@ -1,0 +1,162 @@
+# Mila Interior Solutions — কাজের তালিকা
+
+- [x] কোম্পানি প্রোফাইল থেকে সেবা, যোগাযোগ, অবস্থান, ভাষা ও ব্র্যান্ড বার্তা যাচাই করা।
+- [x] প্রাপ্ত মূল লোগোকে ওয়েব উপযোগী ব্র্যান্ড সম্পদ হিসেবে প্রস্তুত করা।
+- [x] Mila Interior Solutions-কেন্দ্রিক নকশা দিকনির্দেশনা ও পেজ-কাঠামো চূড়ান্ত করা।
+- [x] মূল হোমপেজ, সেবা উপস্থাপনা ও সরাসরি যোগাযোগের পথ তৈরি করা।
+- [x] মোবাইল ও ডেস্কটপে ওয়েবসাইট পরীক্ষা করা।
+- [x] মালিকানা, ডোমেইন, হোস্টিং ও ভবিষ্যৎ সম্পাদনার সহজ নির্দেশনা প্রস্তুত করা।
+- [x] সংযুক্ত আর্কাইভ থেকে প্রাসঙ্গিক ছবি ও কনটেন্ট যাচাই করা।
+- [x] হোম, অল স্টিকার, ওয়াল পেপারস, হোম ডেকো আইটেম, ফ্যাশন এবং New Arrivals নেভিগেশন যোগ করা।
+- [x] অল স্টিকার পেজে বাম পাশের সাব-ক্যাটাগরি ও ফিল্টার-সদৃশ প্রবাহ তৈরি করা।
+- [x] প্রতিটি নতুন বিভাগে সহজ বাংলা–ইংরেজি মিশ্রিত ক্যাটালগ কনটেন্ট যোগ করা।
+- [x] স্থায়ী ডান পাশের WhatsApp আইকন, নিশ্চিত ইমেইল ও ডোমেইন-সংক্রান্ত লেখা যোগ করা।
+- [x] ডেস্কটপ ও মোবাইলে সংশোধিত ক্যাটালগ অভিজ্ঞতা পরীক্ষা করা।
+- [x] বর্তমান ওয়েবসাইট কাঠামো, ক্যাটাগরি ও যোগাযোগের পথ স্লাইডে সাজানো।
+- [x] বাংলা প্রেজেন্টেশন তৈরি করে উপস্থাপন করা।
+- [x] বাংলা–ইংরেজি মিশ্রিত নতুন কপির ধরন এবং স্টাইলিশ ফন্ট-দিক নির্ধারণ করা।
+- [x] পণ্য, ছবি, স্টক, মূল্য ও অর্ডারের তথ্য-কাঠামো নির্ধারণ করা।
+- [x] পণ্য আপলোড ও অর্ডার ব্যবস্থাপনার প্রশাসনিক ড্যাশবোর্ড চালু করা।
+- [x] গ্রাহকের জন্য পণ্য দেখা, কার্ট এবং অর্ডার-স্ট্যাটাস প্রবাহের ইন্টারফেস তৈরি করা।
+- [x] পুনঃনকশাকৃত ফ্রন্টএন্ড ও অর্ডার অভিজ্ঞতা পরীক্ষা করা।
+- [x] Shopify ক্যাটালগ, কার্ট ও চেকআউট প্রবাহকে নতুন ফ্রন্টএন্ডের সঙ্গে যুক্ত করা।
+- [x] প্রশাসনিক ড্যাশবোর্ডে পণ্য আপলোড, মূল্য/স্টক হালনাগাদ এবং অর্ডার দেখার প্রবেশপথ তৈরি করা।
+- [ ] Shopify স্টোরের মালিকানা দাবি, পেমেন্ট সেটআপ এবং প্রথম প্রকৃত পণ্য যোগ করার নির্দেশনা প্রস্তুত করা।
+- [x] প্রদত্ত Create New Order রেফারেন্সের ক্ষেত্র, ধাপ ও ব্যবহারপ্রবাহ যাচাই করা।
+- [x] Create New Order-সদৃশ অ্যাডমিন অর্ডার ফর্মে Save New Order-এর বদলে Order Place ব্যবহার করা।
+- [ ] কার্ট → অনলাইন পেমেন্ট → Shopify চেকআউট প্রবাহের সঙ্গে অর্ডার ব্যবস্থাপনা যুক্ত করা।
+- [x] বাংলা–ইংরেজি মিশ্রিত checkout ও payment experience-এর ডিজাইন প্রিভিউ তৈরি করা।
+- [x] ডেস্কটপ ও মোবাইলে checkout ডিজাইন প্রিভিউ যাচাই করা।
+- [x] Shop ও Admin পেজে অনুপস্থিত ব্র্যান্ড-সম্মত স্টাইলিং ও responsive বিন্যাস সম্পূর্ণ করা।
+- [ ] Shopify-ভিত্তিক পণ্য আপলোড, মূল্য/স্টক হালনাগাদ এবং অর্ডার ব্যবস্থাপনার কার্যকর প্রবেশপথ সম্পূর্ণ করা।
+- [x] গ্রাহকের জন্য বাস্তব অর্ডার-স্ট্যাটাস খোঁজার পেজ ও নিরাপদ lookup প্রবাহ তৈরি করা।
+- [x] গ্রাহকের জন্য বাস্তব অর্ডার-স্ট্যাটাস খোঁজার পেজ ও নিরাপদ lookup প্রবাহ তৈরি করা।
+- [ ] বাস্তব পণ্য ও একটি বৈধ অর্ডার পাওয়ার পরে end-to-end cart, checkout ও order-status পরীক্ষা করা।
+- [x] Service Order-এর জন্য product code, সাইজ/ফিনিশ, delivery charge ও preferred service time সংরক্ষণের ক্ষেত্র যোগ করা।
+- [x] Order ID-কে ব্যবসায়িক reference হিসেবে রাখা এবং মোট মূল্য, prepayment ও due payment স্বয়ংক্রিয় হিসাব করা।
+- [x] Create New Order ও তালিকায় নতুন service-order তথ্যগুলো পরিষ্কারভাবে প্রদর্শন করা।
+- [x] বাস্তব order record যোগ করার আগে অনুপস্থিত মূল্য ও delivery তথ্য যাচাই করার ব্যবস্থা রাখা।
+- [x] Admin order list-এ service requirements, preferred time এবং সংক্ষিপ্ত delivery তথ্য স্পষ্টভাবে দেখানো।
+- [x] ছয়টি Sticker Type/Quality, প্রতি sqft rate এবং নির্বাচিত ফিনিশের তথ্য তৈরি করা।
+- [x] দশ-সারি length × width অথবা custom square-feet ইনপুট ও স্বয়ংক্রিয় sqft calculation তৈরি করা।
+- [x] sticker area, unit rate, delivery method ও delivery charge মিলিয়ে বাস্তবসম্মত order total calculation তৈরি করা।
+- [x] জেলা-ভিত্তিক courier, showroom pickup ও ঢাকা home service-এর চারটি delivery option যুক্ত করা।
+- [x] prepayment amount ও payment proof upload-সহ গ্রাহক checkout তথ্য-কাঠামো যোগ করা।
+- [x] স্বয়ংক্রিয় Order ID, Place Order, নিরাপদ অর্ডার সংরক্ষণ এবং digital cash memo তৈরি করা।
+- [ ] স্টিকার কনফিগারেটর ও checkout-এর প্রশাসনিক ব্যবস্থাপনা এবং গ্রাহক প্রবাহ পরীক্ষা করা।
+- [x] প্রদত্ত Glossy PR, Matte PR, Reflective, 3D ও Glittery বাস্তব texture image-গুলোকে web asset হিসেবে প্রস্তুত করা।
+- [x] বাস্তব texture image দিয়ে sticker quality selection card ও preview উন্নত করা।
+- [x] ডেস্কটপ ও মোবাইলে বাস্তব quality image-সহ sticker checkout পরীক্ষা করা।
+- [x] প্রদত্ত Regular Sticker sample image-কে স্থায়ী web asset করে Regular quality card-এ যুক্ত করা。
+- [ ] বাস্তব sticker order place করে customer flow end-to-end যাচাই করা: measurement → pricing → delivery → payment proof/COD → Place Order → cash memo।
+- [ ] একটি সফল public sticker order Admin dashboard-এ দেখা যাচ্ছে কি না, এবং সেখানে sticker type, sqft, delivery, payment reference/proof status সঠিকভাবে render হচ্ছে কি না যাচাই করা।
+- [x] আয়, ব্যয়, পণ্য খরচ, সার্ভিস আয়, ডেলিভারি আয় ও ডিজিটাল পেমেন্টের financial ledger data model তৈরি করা।
+- [x] বিজ্ঞাপন platform/campaign, কর্মী বেতন, ভাড়া, সরবরাহ, টেপ/কার্টুন ও অন্যান্য খরচের category ব্যবস্থা তৈরি করা।
+- [x] প্রশাসনিক Finance entry form, payment reference এবং monthly recurring expense record ব্যবস্থা তৈরি করা।
+- [x] মাসভিত্তিক revenue, expense, net profit/loss ও খরচের বিভাগভিত্তিক dashboard তৈরি করা。
+- [x] Finance তথ্য কেবল admin দেখতে পারে এবং হিসাব সঠিকভাবে হয় কি না পরীক্ষা করা।
+- [x] গ্রাহকের furniture বা room photo upload এবং consent-এর নিরাপদ প্রবাহ তৈরি করা।
+- [ ] AI vision দিয়ে furniture/room analysis থেকে structured decor recommendation তৈরি করা।
+- [ ] আপলোড করা ছবির ভিত্তিতে ধারণাভিত্তিক visual redesign তৈরি ও সংরক্ষণ করা।
+- [x] গ্রাহকের জন্য bilingual AI Decor Preview page ও design report তৈরি করা।
+- [ ] AI Decor Preview-এর error handling, privacy notice ও mobile experience পরীক্ষা করা।
+- [ ] ব্যবহারকারীর দেওয়া Drive link থেকে প্রতিটি category-এর product design ও asset যাচাই করা।
+- [ ] প্রতিটি নির্বাচিত product-এর জন্য ১০–১২টি curated image, bilingual title এবং বিবরণ প্রস্তুত করা।
+- [ ] Shopify catalogue-এ product, variant, মূল্য, stock, category ও image gallery যোগ করা।
+- [ ] বাস্তব product দিয়ে cart, checkout, payment এবং order status end-to-end পরীক্ষা করা।
+- [ ] ডোমেইন, hosting ও pre-publish checklist যাচাই করে প্রকাশের জন্য প্রস্তুত করা।
+- [ ] Drive asset import-এর আগে প্রতিটি product-এর নাম, category, price, stock ও variant তথ্যের completeness যাচাই করা।
+- [ ] Shopify payment configuration বাস্তবে সক্রিয় হওয়ার পর card checkout-এর readiness পুনরায় পরীক্ষা করা।
+- [ ] সব জরুরি module-এর privacy, mobile usability, error state ও ownership handover checklist একসঙ্গে যাচাই করা।
+- [x] প্রতিটি মাপের সারিতে আলাদা sticker quality, প্রতি-sqft rate ও line total যোগ করা।
+- [x] একই অর্ডারে mixed-quality fridge, deep freezer ও অন্য surface-এর বহু side-এর হিসাব সার্ভার-সাইডে নিরাপদে যাচাই করা।
+- [x] সম্পূর্ণ order summary ও digital cash memo-তে প্রতি-side-এর quality, sqft, rate ও total দেখানো।
+- [x] এক, তিন ও সাত side-এর mixed-quality অর্ডার scenario দিয়ে calculation ও checkout পরীক্ষা করা।
+- [ ] এক, তিন ও সাত side-এর mixed-quality scenario দিয়ে বাস্তব /sticker-order submission, generated cash memo, এবং admin order visibility end-to-end যাচাই করা।
+- [x] মাসিক recurring finance entry-এর বাস্তব workflow যোগ করা এবং তা test করা।
+- [x] Recurring finance carry-forward-এর জন্য DB-backed/router-level test যোগ করা: profile create → month carry-forward → ledger/list/summary visibility → duplicate re-run-এ 0 নতুন row।
+- [ ] Admin /admin/finance-এ authenticated recurring carry-forward action browser-level verification করা এবং resulting monthly entries UI-তে দেখা যাচ্ছে কি না নিশ্চিত করা।
+
+- [x] বর্তমান source, database, test result ও deployment/domain status একসঙ্গে review করে updated project status প্রস্তুত করা।
+- [x] Public, admin, sticker order, AI Decor এবং finance routes-এর বর্তমান responsive UI পুনরায় যাচাই করা।
+- [ ] পরবর্তী বাস্তব product upload-এর জন্য Drive link ও owner-confirmed price/stock/variant তথ্য intake করা।
+- [x] Review-এর পর agreed priority অনুযায়ী পরবর্তী implementation শুরু করা।
+
+- [ ] User-directed completion pass: Drive data না থাকলেও remaining sticker, cash memo, finance verification, AI hardening এবং commerce readiness-এর code/test কাজ আগে সম্পূর্ণ করা।
+- [ ] AI Decor Preview-এর browser-level error state যাচাই করা: invalid file, oversized file, missing consent, analyze failure ও preview-generation failure message UI-তে ঠিকমতো দেখায় কি না পরীক্ষা করা।
+- [x] Real asset/data-dependent items-এর জন্য fabricated product, price, stock বা image ব্যবহার না করে import-ready safeguards বজায় রাখা।
+- [x] AI/photo upload routes-এর global request body limit 8 MB image payload-এর উপযোগী করে resource abuse কমানো।
+- [x] Product catalogue intake-এর জন্য title, category, price, stock/status, variants ও ১০–১২টি gallery source validation schema এবং test যোগ করা।
+
+- [ ] All Stickers-এর ১০টি sub-category finalise করে প্রতিটির জন্য minimum ১০টি design gallery প্রস্তুত করা।
+- [ ] Wallpapers-এর ৪টি sub-category finalise করে প্রতিটির জন্য ১০–১২টি design gallery প্রস্তুত করা।
+- [ ] Owner-provided source link-এর design সংগ্রহ; source-এ design না থাকলে নতুন Mila-branded conceptual design তৈরি করা।
+- [ ] Sticker ও wallpaper gallery-র প্রতিটি image quality-check করে duplicate/blurred asset বাদ দেওয়া।
+- [x] Fashion, New Arrivals ও AI Decor-এর নতুন product/design work আপাতত স্থগিত রাখা; existing AI Decor page remove না করা।
+- [x] Fashion, New Arrivals ও AI Decor page, navigation এবং existing content সংরক্ষণ করে future-ready রাখা; এগুলো delete বা hide না করা।
+- [ ] Drive-এর source design সরাসরি publish না করে প্রতিটি selected image-এর quality-screen, clean crop, consistent presentation ও customer-facing polish করা।
+- [ ] Original design identity ও material appearance অক্ষুণ্ণ রেখে professional gallery sequence তৈরি করা; misleading edit না করা।
+
+- [ ] Demand priority: Refrigerator, Deep Freezer, Almari, Wardrobe, Shoe Rack ও Door Sticker-এ প্রতিটিতে ১৫–২৫টি customer-ready design তৈরি/curate করা।
+- [ ] অন্যান্য Sticker ও ৪টি Wallpaper sub-category-তে minimum ১০টি করে design gallery প্রস্তুত করা।
+- [x] Facebook ও বৈধভাবে দৃশ্যমান Telegram content থেকে শুধু visual preference review করা; private content, customer PII বা copyrighted source image সরাসরি copy না করা।
+- [ ] High-demand gallery assets-এর originality, quality, duplicate ও misleading-edit review সম্পূর্ণ করা।
+- [ ] প্রতিটি sticker sub-category-র gallery inventory যাচাই করে সব ১০+ entry বাস্তবে load হওয়া final image দিয়ে পূরণ করা।
+- [x] প্রতিটি wallpaper sub-category-র ১০–১২টি asset generation সম্পন্ন হয়েছে কি না যাচাই করে fallback text নয়, final image নিশ্চিত করা।
+- [x] Customer-facing /stickers ও /wallpapers routes-এ সব sub-category manually review করে missing, duplicate, generating বা placeholder asset-এর QA checklist সম্পূর্ণ করা।
+- [ ] Drive-এর source design সরাসরি publish না করে প্রতিটি selected image-এর quality-screen, clean crop, consistent presentation ও customer-facing polish করা।
+- [ ] Original design identity ও material appearance অক্ষুণ্ণ রেখে professional gallery sequence তৈরি করা; misleading edit না করা।
+- [x] Fashion, New Arrivals ও AI Decor page, navigation এবং existing content সংরক্ষণ করে future-ready রাখা; এগুলো delete বা hide না করা।
+- [x] Generated sticker/wallpaper gallery-র failed বা unavailable image placeholder শনাক্ত করে fallback/asset replacement করা; failed placeholder customer-facing অবস্থায় রাখা যাবে না।
+- [x] Sticker category-তে direct query-based QA support যোগ করে Refrigerator, Deep Freezer, Almari, Wardrobe, Shoe Rack ও Door gallery আলাদাভাবে যাচাই করা।
+- [x] Kitchen Cabinet, Table, Thai Glass/Transparent ও Vehicle Sticker-এর screenshot-এ শনাক্ত failed cards-এর জন্য replacement image তৈরি ও QA করা।
+- [x] Sticker ও Wallpaper catalog coverage-এর automated test যোগ করা: priority Sticker ≥১৫, অন্য Sticker ≥১০, প্রতিটি Wallpaper ≥১০।
+- [x] Kitchen Cabinet-এর Abstract Wave failed card-এর জন্য final replacement asset তৈরি, catalog path update ও render QA করা।
+- [x] Multi-design Design Cart-এর add/remove/state persistence bug ঠিক করে customer যত design চান সেগুলো নিয়ে order করতে পারছেন নিশ্চিত করা।
+- [x] Selected design-এর thumbnail, display name, code এবং source reference checkout-এর compact Design Cart panel ও backend order record-এ নির্ভরযোগ্যভাবে দেখানো/সংরক্ষণ করা।
+- [x] Custom sticker checkout-এর customer-facing formula explanation hide করা; server-side calculation অপরিবর্তিত রাখা।
+- [x] Payment Instructions card-এ confirmed bKash, Nagad, Rocket ও Al-Arafah Islami Bank details নিরাপদভাবে দেখানো এবং screenshot/transaction ID submission flow পরিষ্কার করা।
+- [x] AI Decor-এর “What is in the photo?” input-এ furniture, wall, floor, wallpaper, 3D mat, wallboard ও room-layout intent structuredভাবে নেওয়া।
+- [x] AI Decor recommendation/prompt-এ only Mila-relevant wallpaper, sticker, wallboard, frame এবং furniture-placement suggestions যোগ করা; conceptual disclaimer বজায় রাখা।
+- [ ] Instagram, TikTok, YouTube ও LinkedIn-এর verified social links footer/contact experience-এ যোগ করা।
+- [x] Customer account/profile, registration/login route এবং safe admin customer-registration overview design করা; password কখনো admin-visible বা plaintext হিসেবে সংরক্ষণ না করা।
+- [x] Super-admin Website Management-এ editable copy/contact/social/payment/category visibility foundations বিস্তৃত করা; destructive remove action-এ guard রাখা।
+- [x] Premium motion design যোগ করা: prefers-reduced-motion support, motion under 300ms এবং accessibility-safe contrast বজায় রাখা।
+- [x] Hostnin external domain/hosting handover guide প্রস্তুত করা এবং existing managed hosting compatibility/limitations স্পষ্ট করা।
+- [x] Customer-facing copy-তে English প্রায় 70% এবং stylish Bengali helper text প্রায় 30% করে language hierarchy পুনর্বিন্যাস করা।
+- [x] প্রতিটি Sticker ও Wallpaper design card-এ product-specific Order Now এবং Add to Cart action যুক্ত করা; unavailable Shopify variant হলে misleading cart action না দেখানো।
+- [x] Product card থেকে selected category/design ID checkout-এ prefill করা এবং customer-selected design name/thumbnail দেখানোর ব্যবস্থা করা।
+- [x] Sticker checkout-এ compact product selector, compact quality selector, click-to-zoom quality samples এবং add/remove করা যায় এমন measurement row system তৈরি করা।
+- [x] Sticker order API ও database-এ selected design metadata, design source reference এবং safely-limited flexible measurement structure সংরক্ষণ করা।
+- [x] Cash memo ও protected admin order detail-এ selected design names, measurements, per-row quality, delivery choice ও customer-entered instructions organisedভাবে দেখানো।
+- [x] Admin order workflow-এ separate home-service request view, follow-up/complaint/internal-note fields এবং staff-editable operational status যোগ করা।
+- [x] Admin access roles-এ super-admin owner protection এবং authorised staff/moderator scope design করা; public customer data access বন্ধ রাখা।
+- [x] Website Management admin route-এ controllable public copy/category visibility/content foundations তৈরি করা।
+- [x] Ordered data-র organised spreadsheet-compatible export তৈরি করা; automatic Google Sheets sync-এর জন্য required authorised integration/configuration আলাদা করে প্রস্তুত করা।
+- [x] Business Management-এর payment channel, product bill, courier invoice, packaging, utilities, rent, payroll এবং advertisement-channel filters যাচাই/সম্পূর্ণ করা।
+- [x] Final pre-publish checklist-এ WhatsApp direct contact, business domain, mobile usability, privacy, customer order receipt ও real Shopify-payment limitation অন্তর্ভুক্ত করা।
+- [x] Customer-facing copy-তে English প্রায় 70% এবং stylish Bengali helper text প্রায় 30% করে language hierarchy পুনর্বিন্যাস করা।
+- [x] প্রতিটি Sticker ও Wallpaper design card-এ product-specific Order Now এবং Add to Cart action যুক্ত করা; unavailable Shopify variant হলে misleading cart action না দেখানো।
+- [x] Product card থেকে selected category/design ID checkout-এ prefill করা এবং customer-selected design name/thumbnail দেখানোর ব্যবস্থা করা।
+- [x] Sticker checkout-এ compact product selector, compact quality selector, click-to-zoom quality samples এবং add/remove করা যায় এমন measurement row system তৈরি করা।
+- [x] Sticker order API ও database-এ selected design metadata, design source reference এবং safely-limited flexible measurement structure সংরক্ষণ করা।
+- [x] Cash memo ও protected admin order detail-এ selected design names, measurements, per-row quality, delivery choice ও customer-entered instructions organisedভাবে দেখানো।
+- [x] Admin order workflow-এ separate home-service request view, follow-up/complaint/internal-note fields এবং staff-editable operational status যোগ করা।
+- [x] Admin access roles-এ super-admin owner protection এবং authorised staff/moderator scope design করা; public customer data access বন্ধ রাখা।
+- [x] Website Management admin route-এ controllable public copy/category visibility/content foundations তৈরি করা।
+- [x] Ordered data-র organised spreadsheet-compatible export তৈরি করা; automatic Google Sheets sync-এর জন্য required authorised integration/configuration আলাদা করে প্রস্তুত করা।
+- [x] Business Management-এর payment channel, product bill, courier invoice, packaging, utilities, rent, payroll এবং advertisement-channel filters যাচাই/সম্পূর্ণ করা।
+- [x] Final pre-publish checklist-এ WhatsApp direct contact, business domain, mobile usability, privacy, customer order receipt ও real Shopify-payment limitation অন্তর্ভুক্ত করা।
+
+- [x] Fix missing `/admin/website-management` route: Dashboard Website link must open owner Website Management page instead of 404.
+- [x] Recurring finance carry-forward-এর জন্য বাস্তব router-level test যোগ করা: profile create → carry-forward mutation → ledger/list/summary query assertions → duplicate re-run returns 0 new rows।
+- [x] Recurring carry-forward flow browser/admin verification চালানো এবং resulting monthly entries UI-তে দেখা যাচ্ছে কি না নথিভুক্ত করা।
+- [x] Fix and verify the actual Home Service admin route so the intended page is reachable without a 404.
+- [ ] Configure and verify custom DNS for milainteriorsolution.com through the owner’s Hostnin account.
+- [ ] Configure mila-interior-solutions.com custom DNS and verify HTTPS/live resolution (www is live over HTTPS; root domain currently returns an SSL mismatch and needs Manus root-domain activation/certificate provisioning).
+- [x] Create owner management training guide covering domain, website, admin, finance, Shopify, backups, and recovery.
+- [x] Create file-based source/database/security handover package without exposing secrets or customer data.
+- [x] Review and document unauthorized-access protections, OAuth/RBAC, secret handling, backup, and recovery controls.
+- [x] Add Google Search Console TXT verification record for mila-interior-solutions.com, verify ownership, and request indexing (ownership verified; homepage is indexed and served over HTTPS in Search Console).
+- [x] Marketing launch readiness pass: verified the public `www` URL over HTTPS, Google Search Console ownership/indexing, COD-first checkout UI, WhatsApp/email contact links, and documented the bare-root SSL plus real-catalog owner blockers.
+- [x] Prepare concise marketing launch links and operating guidance for Mila Interior Solutions.

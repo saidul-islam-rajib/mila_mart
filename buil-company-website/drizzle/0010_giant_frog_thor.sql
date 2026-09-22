@@ -1,0 +1,1 @@
+ALTER TABLE `websiteSettings` MODIFY COLUMN `isPublic` tinyint NOT NULL DEFAULT 1;

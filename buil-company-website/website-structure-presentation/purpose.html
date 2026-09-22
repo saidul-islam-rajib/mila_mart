@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wdth,wght@75..100,300..900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: #F4F1F8; color: #3E2A5E; font-family: 'Noto Sans Bengali', sans-serif; position: relative; display: grid; grid-template-columns: 46% 54%; }
+    .left { padding-top: 104px; padding-left: 94px; padding-right: 56px; }
+    .eyebrow { color: #5A4B75; font-size: 13px; font-weight: 800; letter-spacing: 3px; }
+    h1 { margin-top: 32px; font-size: 55px; line-height: 1.05; letter-spacing: -2.5px; font-weight: 900; }
+    .lead { margin-top: 26px; max-width: 420px; color: #5A4B75; font-size: 20px; line-height: 1.65; font-weight: 300; }
+    .principle { margin-top: 46px; display: flex; align-items: center; gap: 15px; color: #3E2A5E; font-size: 16px; font-weight: 700; }
+    .principle b { width: 42px; height: 42px; display: grid; place-items: center; color: #F4F1F8; background: #3E2A5E; font-size: 16px; }
+    .right { padding-top: 64px; padding-right: 74px; display: block; }
+    .purpose-row { display: grid; grid-template-columns: 112px 1fr; gap: 16px; align-items: start; border-top: 1px solid #B7A8C8; padding: 12px 0; }
+    .purpose-row:last-child { border-bottom: 1px solid #B7A8C8; }
+    .number { color: #9D84B7; font-size: 76px; line-height: 1; letter-spacing: -4px; font-weight: 900; }
+    .copy h2 { color: #3E2A5E; font-size: 27px; line-height: 1.2; font-weight: 900; letter-spacing: -1px; }
+    .copy p { margin-top: 9px; color: #5A4B75; max-width: 392px; font-size: 16px; line-height: 1.55; font-weight: 300; }
+    .tag { display: inline-block; margin-top: 9px; color: #9D84B7; font-size: 11px; font-weight: 800; letter-spacing: 2px; }
+    /* Adjust arc so it stays inside the 720px visual area and doesn't overlap content */
+    .arc { position: absolute; right: -40px; bottom: 32px; width: 320px; height: 160px; border: 1px solid #9D84B7; border-radius: 190px 190px 0 0; border-bottom: 0; opacity: .5; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="left">
+      <p class="eyebrow">01 · WEBSITE PURPOSE</p>
+      <h1>একটি ওয়েবসাইট,<br>দুটি স্পষ্ট উদ্দেশ্য</h1>
+      <p class="lead">Mila-এর পরিচয় ও কাজের মান বোঝানো, পাশাপাশি প্রয়োজনের বিভাগটি দ্রুত খুঁজে পাওয়ার একটি সহজ পথ তৈরি করা হয়েছে।</p>
+      <div class="principle"><b>2</b><span>Trust + Discovery<br>একই অভিজ্ঞতায়</span></div>
+    </section>
+    <section class="right">
+      <article class="purpose-row"><div class="number">01</div><div class="copy"><h2>Brand trust</h2><p>কোম্পানির পরিচয়, সার্ভিসের ধরন, কাজের প্রক্রিয়া ও বাস্তব যোগাযোগ এক জায়গায়।</p><span class="tag">WHO WE ARE</span></div></article>
+      <article class="purpose-row"><div class="number">02</div><div class="copy"><h2>Catalog discovery</h2><p>স্টিকার, ওয়ালপেপার, ডেকোর ও নতুন বিভাগ সহজ নেভিগেশন দিয়ে আলাদা করা হয়েছে।</p><span class="tag">WHAT TO EXPLORE</span></div></article>
+      <article class="purpose-row"><div class="number">03</div><div class="copy"><h2>Direct contact</h2><p>পণ্য বা সেবার তথ্য জানার পর পরবর্তী ধাপ হিসেবে ফোন, ইমেইল ও WhatsApp পাওয়া যায়।</p><span class="tag">HOW TO ACT</span></div></article>
+    </section>
+    <div class="arc" aria-hidden="true"></div>
+  </div>
+</body>
+</html>

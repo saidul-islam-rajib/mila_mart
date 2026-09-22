@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wdth,wght@75..100,300..900&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    .slide-container { width: 1280px; min-height: 720px; background: #F4F1F8; color: #3E2A5E; font-family: 'Noto Sans Bengali', sans-serif; display: grid; grid-template-columns: 38% 62%; position: relative; }
+    .intro { padding-top: 88px; padding-left: 92px; padding-right: 44px; }
+    .eyebrow { color: #5A4B75; font-size: 13px; font-weight: 800; letter-spacing: 3px; }
+    h1 { margin-top: 24px; color: #3E2A5E; font-size: 54px; line-height: 1.04; letter-spacing: -2.6px; font-weight: 900; }
+    .intro > p { margin-top: 26px; color: #5A4B75; font-size: 18px; line-height: 1.65; font-weight: 300; }
+    .boundary { margin-top: 12px; padding-top: 9px; padding-left: 14px; padding-right: 10px; background: #E9E3F0; border-top: 3px solid #9D84B7; }
+    .boundary span { color: #9D84B7; font-size: 11px; font-weight: 800; letter-spacing: 1.8px; }
+    .boundary strong { display: block; margin-top: 9px; color: #3E2A5E; font-size: 19px; line-height: 1.3; font-weight: 900; }
+    .boundary p { margin-top: 7px; color: #5A4B75; font-size: 13px; line-height: 1.55; font-weight: 300; }
+
+    /* Layout refreshed: two-column lanes to save vertical space */
+    .catalog-lanes { padding-top: 46px; padding-right: 60px; display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: auto; gap: 12px 20px; }
+    .lane { display: grid; grid-template-columns: 54px 1fr; gap: 12px; align-items: start; border-top: 1px solid #B7A8C8; padding: 12px 0; }
+    .lane:nth-child(odd) { border-right: 0; }
+    .lane:nth-child(4) { background: #3E2A5E; padding-left: 12px; padding-right: 12px; }
+    .lane:last-child { border-bottom: none; }
+    .lane-no { color: #9D84B7; font-size: 17px; font-weight: 900; letter-spacing: -1px; }
+    .lane h2 { color: #3E2A5E; font-size: 26px; line-height: 1.15; letter-spacing: -1.2px; font-weight: 900; }
+    .lane h2 small { display: block; margin-top: 6px; color: #9D84B7; font-size: 11px; font-weight: 800; letter-spacing: 1.7px; }
+    .lane p { color: #5A4B75; font-size: 15px; line-height: 1.5; font-weight: 300; margin-top: 6px; }
+    .lane:nth-child(4) .lane-no, .lane:nth-child(4) h2 small { color: #D7C9E4; }
+    .lane:nth-child(4) h2 { color: #F4F1F8; }
+    .lane:nth-child(4) p { color: #E7E0ED; }
+    .arc { position: absolute; right: 28px; top: 0; width: 144px; height: 106px; border: 1px solid #9D84B7; border-radius: 100px 100px 0 0; border-bottom: 0; opacity: .45; }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <section class="intro">
+      <p class="eyebrow">05 · CATALOG EXTENSIONS</p>
+      <h1>বাকি বিভাগগুলোও<br>নিজস্ব ব্যবহারক্ষেত্র<br>তৈরি করে</h1>
+      <p>প্রতিটি বিভাগ একটি আলাদা প্রয়োজনকে কেন্দ্র করে সাজানো। তবে সব পথ শেষ পর্যন্ত গ্রাহকের প্রয়োজন বুঝে সহায়তা দেওয়ার দিকে যায়।</p>
+      <div class="boundary">
+        <span>IMPORTANT BOUNDARY</span>
+        <strong>Fashion মূল সার্ভিস নয়</strong>
+        <p>এটি Mila Selects নামে একটি সেকেন্ডারি ক্যাটালগ—ইন্টেরিয়র, স্টিকার ও ডেকোরের পরিচয়কে অগ্রাধিকার দেওয়া হয়েছে।</p>
+      </div>
+    </section>
+    <section class="catalog-lanes" aria-label="অন্যান্য ক্যাটালগ বিভাগ">
+      <article class="lane"><span class="lane-no">01</span><div><h2>Wall Papers<small>WALL FINISH</small></h2><p>3D, Emboss, Fabric ও PVC ওয়ালপেপারের ধরন, থিম ও উপযোগিতা নিয়ে তথ্য ও পরামর্শের পথ।</p></div></article>
+      <article class="lane"><span class="lane-no">02</span><div><h2>Home Deco Items<small>FINAL TOUCH</small></h2><p>Table Lamp ও Artificial Plant-এর মতো নির্বাচিত ডেকোর উপকরণে জায়গার শেষ ছোঁয়া যোগ করার বিভাগ।</p></div></article>
+      <article class="lane"><span class="lane-no">03</span><div><h2>Mila Selects · Fashion<small>SECONDARY CATALOG</small></h2><p>Mens, Womens, Bag ও Cosmetic-এর ভবিষ্যৎ সংগ্রহকে আলাদা ও সীমিত পরিসরে উপস্থাপনের কাঠামো।</p></div></article>
+      <article class="lane"><span class="lane-no">04</span><div><h2>New Arrivals<small>UPCOMING</small></h2><p>নতুন স্টিকার ডিজাইন, ওয়ালপেপার, ডেকোর ও সিলেক্টস কালেকশনের আগ্রহ নেওয়ার প্রাথমিক ঘোষণা-পেজ।</p></div></article>
+    </section>
+    <div class="arc" aria-hidden="true"></div>
+  </div>
+</body>
+</html>

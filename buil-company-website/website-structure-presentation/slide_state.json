@@ -1,0 +1,111 @@
+{
+  "project_info": {
+    "title": "Mila Interior Solutions",
+    "created": 1787836240.208,
+    "last_updated": 1787836592.25,
+    "total_slides": 9
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "purpose",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "navigation",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "homepage",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "stickers",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "collections",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "contact",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "ownership",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "next_steps",
+      "state": "edited",
+      "pageNum": 9
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "Mila Interior Solutions",
+      "summary": "ওয়েবসাইট কাঠামো ও ক্যাটালগ অভিজ্ঞতার পরিচিতিমূলক কভার স্লাইড।",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "purpose",
+      "title": "একটি ওয়েবসাইট, দুটি উদ্দেশ্য",
+      "summary": "ব্র্যান্ডের বিশ্বাসযোগ্যতা এবং পণ্য/সেবা খোঁজার ক্যাটালগ অভিজ্ঞতা একত্রে ব্যাখ্যা করা।",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "navigation",
+      "title": "নেভিগেশন ও পেজ ম্যাপ",
+      "summary": "বর্তমান হোম, স্টিকার, ওয়ালপেপার, ডেকোর, ফ্যাশন ও নতুন আগমনী পেজগুলোর কাঠামো।",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "homepage",
+      "title": "Home পেজের ভূমিকা",
+      "summary": "ব্র্যান্ড পরিচয়, সার্ভিস, কাজের ধাপ এবং প্রধান যোগাযোগের পথ উপস্থাপন।",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "stickers",
+      "title": "All Stickers ক্যাটালগ",
+      "summary": "বাম পাশের সাব-ক্যাটাগরি, কাজের নমুনা এবং মোবাইল অভিজ্ঞতা ব্যাখ্যা।",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "collections",
+      "title": "অন্যান্য ক্যাটালগ বিভাগ",
+      "summary": "Wall Papers, Home Deco Items, Mila Selects Fashion এবং New Arrivals-এর বর্তমান ভূমিকা।",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "contact",
+      "title": "যোগাযোগ সবসময় কাছে",
+      "summary": "স্থায়ী WhatsApp আইকন, ফোন, ইমেইল এবং লোকেশনভিত্তিক যোগাযোগ ব্যবস্থা।",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "ownership",
+      "title": "দীর্ঘমেয়াদি নিয়ন্ত্রণ",
+      "summary": "ডোমেইন, ব্র্যান্ড সম্পদ, কনটেন্ট হালনাগাদ এবং ভবিষ্যৎ সম্প্রসারণের ভিত্তি।",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "next_steps",
+      "title": "পরবর্তী বাস্তব অগ্রাধিকার",
+      "summary": "পণ্যের ছবি ও তথ্য, প্রজেক্ট গ্যালারি এবং অর্ডার/অ্যাপয়েন্টমেন্ট প্রক্রিয়ার পরবর্তী ধাপ।",
+      "image_plan": "Use a suitable image if needed"
+    }
+  ]
+}

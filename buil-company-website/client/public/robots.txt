@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /account
+Disallow: /cash-memo
+Disallow: /checkout-preview
+Disallow: /sticker-order
+
+Sitemap: https://www.mila-interior-solutions.com/sitemap.xml
