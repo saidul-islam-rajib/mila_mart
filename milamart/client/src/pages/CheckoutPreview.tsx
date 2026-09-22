@@ -1,4 +1,4 @@
-/** Mila Shop & Studio checkout preview: a non-transactional visual reference for the future Shopify handoff. */
+
 import { Check, ChevronRight, LockKeyhole, Mail, MapPin, Phone, ShieldCheck, ShoppingBag, Truck } from "lucide-react";
 import SiteFooter from "@/components/site/SiteFooter";
 import FloatingWhatsApp from "@/components/site/FloatingWhatsApp";

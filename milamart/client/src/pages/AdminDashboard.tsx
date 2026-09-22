@@ -1,4 +1,4 @@
-/** Mila admin desk: protected service-order management with transparent payment and delivery details. */
+
 import { CheckCircle2, Download, ExternalLink, PackagePlus, Plus, Search, ShoppingBag, Truck, UserRoundCheck, WalletCards } from "lucide-react";
 import { useMemo, useState } from "react";
 import { useForm } from "react-hook-form";

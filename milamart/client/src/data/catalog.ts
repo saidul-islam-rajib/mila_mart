@@ -1,4 +1,4 @@
-/** Mila “Navy Atelier” catalog data: concise bilingual labels and only user-provided image samples. */
+
 export type StickerCategory = {
   id: string;
   bangla: string;

@@ -157,7 +157,7 @@ const normalizeMessage = (message: Message) => {
 
   const contentParts = ensureArray(message.content).map(normalizeContentPart);
 
-  // If there's only text content, collapse to a single string for compatibility
+  
   if (contentParts.length === 1 && contentParts[0].type === "text") {
     return {
       role,
@@ -285,9 +285,9 @@ const parseRetryAfter = (value: string | null): number | undefined => {
   return Number.isNaN(at) ? undefined : Math.max(0, at - Date.now());
 };
 
-// Equal-jitter exponential backoff. The cap/2 floor guarantees a minimum
-// delay so a misbehaving caller loop slows down instead of hammering the
-// upstream while it keeps returning errors.
+
+
+
 const computeBackoffDelay = (
   attempt: number,
   retryAfterMs?: number
@@ -297,8 +297,8 @@ const computeBackoffDelay = (
   return Math.min(Math.max(jittered, retryAfterMs ?? 0), RETRY_MAX_DELAY_MS);
 };
 
-// Retries non-2xx responses and network errors with exponential backoff, then
-// returns the final Response so callers keep their existing error handling.
+
+
 const fetchWithBackoff = async (
   url: string,
   init: FetchInit
@@ -318,7 +318,7 @@ const fetchWithBackoff = async (
       try {
         await response.body?.cancel();
       } catch {
-        // Body already settled; nothing to clean up.
+        
       }
       console.warn(
         `LLM request retry ${attempt + 1}/${RETRY_MAX_RETRIES} after status ${response.status}`

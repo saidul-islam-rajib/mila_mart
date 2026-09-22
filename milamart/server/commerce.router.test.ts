@@ -85,12 +85,12 @@ describe("commerce.products", () => {
       { name: "Title", value: "Default Title" },
     ]);
 
-    // The shape must not contain raw GraphQL edges/nodes — that would mean the
-    // normalization layer leaked. Stringify and assert.
+    
+    
     const serialized = JSON.stringify(product);
     expect(serialized.includes("edges")).toBe(false);
 
-    // Endpoint should hit the pinned API version.
+    
     const [url, init] = fetchMock.mock.calls[0];
     expect(String(url)).toMatch(/\/api\/2025-04\/graphql\.json$/);
     expect((init as RequestInit).headers).toMatchObject({

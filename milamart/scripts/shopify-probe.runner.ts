@@ -1,12 +1,4 @@
-/**
- * tsx runner for `pnpm shopify:probe`.
- *
- * Prints normalized output of `listProducts()` against the real Storefront
- * API and exits non-zero if the catalog isn't usable for rendering.
- *
- * Wire it into `package.json` after dropping the bundle in:
- *   "shopify:probe": "tsx scripts/shopify-probe.runner.ts"
- */
+
 
 import { isShopifyConfigured, listProducts } from "../server/_core/shopify";
 

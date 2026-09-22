@@ -57,7 +57,7 @@ export const adminProcedure = t.procedure.use(
   }),
 );
 
-/** Reserved for ownership, permissions and other account-level controls. */
+
 export const superAdminProcedure = t.procedure.use(
   t.middleware(async opts => {
     const { ctx, next } = opts;

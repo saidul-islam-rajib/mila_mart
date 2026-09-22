@@ -1,11 +1,4 @@
-/**
- * Commerce router — backend-agnostic tRPC surface for the storefront.
- *
- * The router is intentionally thin: zod validates input, then delegates to the
- * named functions exported from `server/_core/shopify`. If we ever swap
- * commerce backends, only `_core/shopify.ts` + `_core/shopifyNormalize.ts`
- * change — this router stays put.
- */
+
 
 import { z } from "zod";
 import {
@@ -28,7 +21,7 @@ const cartLineInputSchema = z.object({
 
 const cartLineUpdateSchema = z.object({
   lineId: z.string().min(1),
-  /** 0 means "remove this line" — the route forwards to removeLines. */
+  
   quantity: z.number().int().min(0).max(99),
 });
 
@@ -93,8 +86,8 @@ export const commerceRouter = router({
         })
       )
       .mutation(async ({ input }) => {
-        // qty 0 means "remove this line" — split the request so the client
-        // never has to call two procedures for a single user gesture.
+        
+        
         const toRemove = input.lines.filter(l => l.quantity === 0).map(l => l.lineId);
         const toUpdate = input.lines.filter(l => l.quantity > 0);
 

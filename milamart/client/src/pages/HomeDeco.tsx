@@ -1,4 +1,4 @@
-/** Mila “Navy Atelier” home-deco page: curated finishing items expressed with warm material cards. */
+
 import CollectionPage from "@/pages/CollectionPage";
 import { homeDecoEntries } from "@/data/catalog";
 

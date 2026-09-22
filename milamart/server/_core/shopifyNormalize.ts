@@ -1,17 +1,4 @@
-/**
- * The decoupling seam.
- *
- * This file is the ONLY place in the codebase that's allowed to know the
- * shape of a Shopify Storefront GraphQL response. Everything it returns is
- * typed against `shared/commerce/types` — backend-agnostic. If a future store
- * ever swaps Shopify for another commerce backend, this file (plus the
- * GraphQL fragments in `shopify.ts`) is what changes; the router, the
- * shared types, and the UI all stay put.
- *
- * The corresponding test in `server/commerce.router.test.ts` serializes a
- * normalized `Product` and asserts the substring `"edges"` is absent — that's
- * the canary for this seam.
- */
+
 
 import type {
   Cart,
@@ -25,7 +12,7 @@ import type {
   SelectedOption,
 } from "@shared/commerce/types";
 
-// ---- Raw Shopify shapes (kept private to this file) ----
+
 
 type RawMoney = { amount: string; currencyCode: string };
 type RawImage = { url: string; altText: string | null; width?: number; height?: number };
@@ -89,7 +76,7 @@ export type RawCart = {
   lines: Edges<RawCartLine>;
 };
 
-// ---- Normalizers ----
+
 
 function normalizeMoney(m: RawMoney): Money {
   return { amount: m.amount, currencyCode: m.currencyCode };
@@ -163,11 +150,7 @@ function normalizeCartItem(line: RawCartLine): CartItem {
   };
 }
 
-/**
- * Always append `channel=online_store` to checkout URLs so a password-protected
- * dev store still lets the hosted checkout render. Doing this server-side
- * (here, behind `normalizeCart`) means no caller can forget it.
- */
+
 export function withChannelParam(checkoutUrl: string): string {
   if (!checkoutUrl) return checkoutUrl;
   return checkoutUrl.includes("?")

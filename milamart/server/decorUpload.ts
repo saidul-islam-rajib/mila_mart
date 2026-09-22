@@ -34,7 +34,7 @@ function optionalText(value: unknown, maxLength: number) {
   return normalized || null;
 }
 
-/** Decode only the supported small image formats. The raw data URL is never logged or stored in the database. */
+
 export function parseDecorUpload(body: unknown): DecorUpload | null {
   if (!body || typeof body !== "object") return null;
   const input = body as Record<string, unknown>;

@@ -1,4 +1,4 @@
-/** Shared pricing rules for Mila's made-to-measure sticker orders. Values originate from the approved order-flow reference. */
+
 export const STICKER_QUALITIES = [
   { id: "regular", label: "Regular Sticker", bangla: "রেগুলার স্টিকার", rate: 60, note: "Economical & standard finish" },
   { id: "matte-pr", label: "Matte PR Sticker", bangla: "ম্যাট PR স্টিকার", rate: 80, note: "Anti-glare matte finish" },

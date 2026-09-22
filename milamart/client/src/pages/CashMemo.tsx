@@ -1,4 +1,4 @@
-/** Printable post-order cash memo. The receipt snapshot is saved only in this browser after a successful public order. */
+
 import { CheckCircle2, Download, Home, Printer, Ruler, Truck, WalletCards } from "lucide-react";
 import { useMemo } from "react";
 import { Link } from "wouter";

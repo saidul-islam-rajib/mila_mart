@@ -51,7 +51,7 @@ describe("finance router recurring carry-forward", () => {
       description: testDescription,
     });
 
-    // The router generates IDs, so locate the created profile by its unique test description.
+    
     const db = await getDb();
     if (!db) throw new Error("Database unavailable for integration test");
     const profiles = await db.select().from(financeRecurringProfiles).where(eq(financeRecurringProfiles.description, testDescription));

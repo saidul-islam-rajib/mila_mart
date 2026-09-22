@@ -1,4 +1,4 @@
-/** Mila “Navy Atelier” arrivals page: restrained upcoming announcement, not a false stocked-products page. */
+
 import { ArrowUpRight, BellRing, MessageCircle } from "lucide-react";
 import FloatingWhatsApp from "@/components/site/FloatingWhatsApp";
 import SiteFooter from "@/components/site/SiteFooter";

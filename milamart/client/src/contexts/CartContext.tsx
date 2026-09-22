@@ -10,15 +10,7 @@ import {
   useState,
 } from "react";
 
-/**
- * Storefront cart context.
- *
- * - Talks ONLY to backend-agnostic `commerce.*` tRPC procedures.
- * - Persists the cart id in localStorage and rehydrates on mount.
- * - Exposes a tiny imperative surface to UI: addItem, updateQuantity,
- *   removeItem, openCart, proceedToCheckout. Everything is typed against
- *   `shared/commerce/types` — the Shopify backend is invisible.
- */
+
 
 const CART_STORAGE_KEY = "commerce:cart-id";
 
@@ -57,7 +49,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const utils = trpc.useUtils();
 
-  // Re-hydrate cart on mount or whenever cartId changes.
+  
   useEffect(() => {
     if (!cartId) {
       setCart(null);
@@ -71,7 +63,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
         if (cancelled) return;
         if (c) setCart(c);
         else {
-          // Stored cart id no longer valid — drop it.
+          
           writeStoredCartId(null);
           setCartId(null);
         }
@@ -162,7 +154,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const proceedToCheckout = useCallback(() => {
     if (!cart?.checkoutUrl) return;
-    // checkoutUrl already has channel=online_store appended server-side.
+    
     window.open(cart.checkoutUrl, "_blank", "noopener,noreferrer");
   }, [cart]);
 

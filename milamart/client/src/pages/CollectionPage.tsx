@@ -1,4 +1,4 @@
-/** Mila “Navy Atelier” collection page: bilingual catalogue information without stock, price, or checkout claims. */
+
 import { useState } from "react";
 import { ArrowUpRight, MessageCircle } from "lucide-react";
 import FloatingWhatsApp from "@/components/site/FloatingWhatsApp";

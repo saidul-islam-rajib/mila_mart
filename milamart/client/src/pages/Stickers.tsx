@@ -1,4 +1,4 @@
-/** Mila “Navy Atelier” sticker catalogue: left-side category filtering, supplied sample images, and WhatsApp enquiry paths. */
+
 import { ArrowUpRight, Calculator, Check, MessageCircle, ShoppingBag, SlidersHorizontal } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Link } from "wouter";

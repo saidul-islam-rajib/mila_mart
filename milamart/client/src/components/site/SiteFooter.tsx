@@ -1,4 +1,4 @@
-/** Mila “Navy Atelier” footer: verified contact and planned domain, without unverified storefront claims. */
+
 import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { Link } from "wouter";
 

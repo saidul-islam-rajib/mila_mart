@@ -1,9 +1,6 @@
 import type { Money } from "@shared/commerce/types";
 
-/**
- * Format a Money or raw amount string into a localized currency string.
- * Falls back to `$X` rounding if Intl rejects the currency code.
- */
+
 export function formatMoney(value: Money | string | number, currencyCode?: string): string {
   let amountNum: number;
   let code: string;

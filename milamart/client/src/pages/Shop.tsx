@@ -1,4 +1,4 @@
-/** Mila Shop & Studio storefront: Shopify catalog, responsive product tiles, and a graceful empty state until products are published. */
+
 import { ArrowUpRight, PackageOpen, ShoppingBag } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Link } from "wouter";

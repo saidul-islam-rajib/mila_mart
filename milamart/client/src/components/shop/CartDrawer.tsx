@@ -1,4 +1,4 @@
-/** Mila Shop & Studio: a typed Shopify-cart drawer; checkout stays in Shopify for payment security. */
+
 import { Minus, Plus, ShoppingBag, Trash2, X } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 

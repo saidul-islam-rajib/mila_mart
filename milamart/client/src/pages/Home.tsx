@@ -1,7 +1,4 @@
-/**
- * Mila “Navy Atelier” page direction: premium but practical interiors, Midnight Navy + Heritage Gold,
- * asymmetric editorial story flow, and simple client actions via phone and WhatsApp.
- */
+
 import {
   ArrowDownRight,
   ArrowUpRight,

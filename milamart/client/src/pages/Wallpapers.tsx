@@ -1,4 +1,4 @@
-/** Mila “Navy Atelier” wallpaper page: four material sub-categories with curated gallery browsing. */
+
 import { ArrowUpRight, Check, MessageCircle, ShoppingBag, SlidersHorizontal } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Link } from "wouter";

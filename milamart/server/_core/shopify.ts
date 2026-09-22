@@ -1,21 +1,4 @@
-/**
- * Shopify Storefront API adapter.
- *
- * All Storefront access — catalog reads and cart reads/writes — goes through
- * this module. The Admin token is intentionally not used in app code; product
- * setup is performed once via the Shopify MCP tools.
- *
- * Layout follows the rest of `server/_core/*`:
- *   1. Transport (`storefrontFetch`) with TRPCError mapping
- *   2. GraphQL fragments (the contract for what we request)
- *   3. The eight capability functions, flat named exports:
- *      listProducts, getProductByHandle, listCollections,
- *      getCollectionByHandle, createCart, getCart,
- *      addCartLines, updateCartLines, removeCartLines
- *
- * Every function returns backend-agnostic `shared/commerce/types` via
- * `shopifyNormalize.ts` — the rest of the app never sees raw Shopify shapes.
- */
+
 
 import { TRPCError } from "@trpc/server";
 import type { Cart, Collection, Product } from "@shared/commerce/types";
@@ -28,16 +11,14 @@ import {
   normalizeProduct,
 } from "./shopifyNormalize";
 
-// ---------------------------------------------------------------------------
-// Configuration
-// ---------------------------------------------------------------------------
 
-/**
- * Storefront API version pinned for the whole adapter.
- */
+
+
+
+
 export const SHOPIFY_API_VERSION = "2025-04";
 
-/** Lazy env access — tests can override `process.env` before each case. */
+
 function getShopifyStoreDomain(): string {
   return process.env.SHOPIFY_STORE_DOMAIN ?? "";
 }
@@ -51,9 +32,9 @@ function shopifyStorefrontEndpoint(): string {
   return `https://${getShopifyStoreDomain()}/api/${SHOPIFY_API_VERSION}/graphql.json`;
 }
 
-// ---------------------------------------------------------------------------
-// Transport
-// ---------------------------------------------------------------------------
+
+
+
 
 type GraphQLResponse<T> = {
   data?: T;
@@ -124,13 +105,7 @@ async function storefrontFetch<T>(
   return json.data;
 }
 
-/**
- * Convert a `{ cart, userErrors }` mutation payload into a normalized cart.
- *
- * `userErrors` are user-correctable (invalid variant, qty out of range, etc.)
- * and become `BAD_REQUEST`. A missing cart with no userErrors is a server bug
- * and becomes `INTERNAL_SERVER_ERROR`.
- */
+
 function unwrapCart(
   payload: { cart: RawCart | null; userErrors: ShopifyUserError[] },
   context: string
@@ -151,13 +126,13 @@ function unwrapCart(
   return normalizeCart(payload.cart);
 }
 
-// ---------------------------------------------------------------------------
-// GraphQL fragments — single source of truth for what we request.
-// Two rules baked in here:
-//   - Never include `quantityAvailable` (requires a scope we don't have →
-//     ACCESS_DENIED). Use `availableForSale: boolean` instead.
-//   - Pin the API version (env.ts), keep fragments aligned with normalize.ts.
-// ---------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 const MONEY_FRAGMENT = /* GraphQL */ `
   fragment MoneyFields on MoneyV2 {
@@ -260,15 +235,15 @@ const CART_FRAGMENT = /* GraphQL */ `
   }
 `;
 
-// ---------------------------------------------------------------------------
-// Catalog
-// ---------------------------------------------------------------------------
+
+
+
 
 type Edges<T> = { edges: Array<{ node: T }> };
 
 export type ListProductsOptions = {
   first?: number;
-  /** Optional handle of a collection to scope the listing to. */
+  
   collectionHandle?: string;
 };
 
@@ -354,9 +329,9 @@ export async function getCollectionByHandle(handle: string): Promise<Collection>
   return normalizeCollection(data.collection);
 }
 
-// ---------------------------------------------------------------------------
-// Cart
-// ---------------------------------------------------------------------------
+
+
+
 
 export type CartLineInput = { variantId: string; quantity: number };
 export type CartLineUpdate = { lineId: string; quantity: number };

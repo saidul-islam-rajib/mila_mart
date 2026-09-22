@@ -1,4 +1,4 @@
-/** Mila “Navy Atelier” fashion page: a forthcoming collection with no fabricated product availability claims. */
+
 import CollectionPage from "@/pages/CollectionPage";
 import { fashionEntries } from "@/data/catalog";
 

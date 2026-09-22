@@ -1,4 +1,4 @@
-/** Mila “Navy Atelier” site header: compact navy navigation with bilingual catalog-first labels. */
+
 import { Menu, Phone, ShoppingBag, X } from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "wouter";

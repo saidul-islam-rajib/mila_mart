@@ -1,4 +1,4 @@
-/** Public lookup only returns a minimal status view after a matching order number and full phone number are supplied. */
+
 import { CircleAlert, LoaderCircle, PackageCheck, Search, ShieldCheck, Truck } from "lucide-react";
 import { FormEvent, useState } from "react";
 import { Link } from "wouter";
